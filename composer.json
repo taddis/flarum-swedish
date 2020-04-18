@@ -19,7 +19,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Swedish",
+            "title": "Swedish for Flarum",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
