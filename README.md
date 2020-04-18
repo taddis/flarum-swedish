@@ -1,6 +1,3 @@
-## Note
-This is a continuation of the great work done by [nlssn](https://github.com/nlssn).
-
 ## flarum-swedish
 A Swedish language extension for [Flarum](http://flarum.org/).
 
