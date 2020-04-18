@@ -6,7 +6,7 @@ A Swedish language extension for [Flarum](http://flarum.org/).
 
 This extension only contains translations for [flarum/flarum](https://github.com/flarum/flarum).
 
-If you need translation for extensions visit [taddis/flarum-extensions-swedish]()
+If you need translation for extensions visit [taddis/flarum-extensions-swedish](https://github.com/taddis/flarum-extensions-swedish).
 ## Information
 
 **Want to help out?**
