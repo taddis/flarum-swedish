@@ -15,11 +15,11 @@
         "source": "https://github.com/taddis/flarum-swedish"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.8"
+        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.14"
     },
     "extra": {
         "flarum-extension": {
-            "title": "Swedish",
+            "title": "Swedish for Flarum",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
