@@ -1,0 +1,24 @@
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: Ändra ditt Alias
+    settings:
+      max_label: Maximal längd på namnet
+      min_label: Minimal längd på namnet
+      regex_label: 
+      unique_label: Kräv unikt alias?
+    wrong_driver: Du måste välja "nickname" som alias på <a><strong>grundläggande inställningar</strong></a> för att denna extension skall fungera.
+  api:
+    invalid_nickname_message: Detta alias är ej tillgängligt. Vänligen kontakta administratören för mer information.
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title:  => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: Alias
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+
+  ref:
+    change_nickname: Ändra Alias
