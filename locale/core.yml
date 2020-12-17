@@ -40,6 +40,9 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Standardspråk
+      description: "Ange forumets titel, språk, och andra grundläggande inställningar."
+      display_name_heading: Användarnamn
+      display_name_text: Välj vilken dirvare som skall användas för användares namn. Användarnamn är valt som standard.
       forum_description_heading: Forumbeskrivning
       forum_description_text: Beskriv ditt community med en kort mening eller två. Det här kommer att synas i metataggarna och dyka upp i sökmotorer.
       forum_title_heading: Forumets Titel
@@ -47,13 +50,18 @@ core:
       home_page_text: "Välj vilken sida som ska vara den första som användarna ser när de besöker ditt forum. Om du anger en anpassad länk, använd en sökväg som är relativ till forumets root."
       saved_message: Dina ändringar sparades.
       show_language_selector_label: Visa språkväljare
+      slug_driver_heading: "Slug Driver: {model}"
+      slug_driver_text: Select a driver to be used for slugging this model.
       submit_button: => core.ref.save_changes
+      title: Basics
       welcome_banner_heading: Välkomstbanner
       welcome_banner_text: Ändra texten som visas i bannern på sidan för Alla Diskussioner. Använd detta för att välkomna gäster till ditt forum.
-
-    # These translations are used in the Dashboard page.
+   
+   # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: Rensa cache
+      description: Översikt av ditt forum.
+      title: Dashboard
       tools_button: Verktyg
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -90,29 +98,27 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Addresser
+      description: "Konfiguera forumets e-postinställningar."
       driver_heading: Välj Driver
       driver_label: Driver
       from_label: Avsändare
-      heading: => core.ref.email
       mail_encryption_label: Kryptering
       mail_host_label: Server
       mail_mailgun_domain_label: Domän
       mail_mailgun_region_label: Region
       mail_mailgun_secret_label: Privat nyckel
-      mail_mandrill_secret_label: Privat nyckel
       mail_password_label: => core.ref.password
       mail_port_label: Port
-      mail_ses_key_label: Nyckel
-      mail_ses_region_label: Region
-      mail_ses_secret_label: Privat
       mail_username_label: => core.ref.username
-      mailgun_heading: Mailgun Inställningar
-      mandrill_heading: Mandrill Inställningar
-      not_sending_message: För närvarande skickas ingen e-post från Flarum. Detta kan bero på vald driver eller konfiguration av driver. 
-      ses_heading: SES Inställningar
+      mailgun_heading: Mailgun Settings
+      not_sending_message: För närvarande skickas ingen e-post från Flarum. Detta kan bero på vald driver eller konfiguration av driver.
+      send_test_mail_button: Skicka 
+      send_test_mail_heading: Testa e-postinställningar
+      send_test_mail_success: "Testet lyckades!"
+      send_test_mail_text: "Detta kommer att skicka ett testmejl med konfigurationen ovan till din e-post, {email}."
       smtp_heading: SMTP Inställningar
       submit_button: => core.ref.save_changes
-      text: Konfigurera SMTP-inställningarna och adresserna som ditt forum kommer använda för att skicka e-post.
+      title: => core.ref.email
 
     # These translations are used in the Extensions page.
     extensions:
